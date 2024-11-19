@@ -1,16 +1,16 @@
-public class GeneralPractitioner extends HealthProfessional {
+public class InternalMedicineProfessional extends HealthProfessional {
     private String expertise; //New variables: expertise of health personnel
     private int serviceYear; //service year of health personnel
-    public GeneralPractitioner() {
+    public InternalMedicineProfessional() {
         super();
 // Call the default constructor of the base class
-        this.expertise = "General Practitioner";
+        this.expertise = "Surgical Professional";
         this.serviceYear = 0;
     }
 
 
 // Call the second constructor of the parent class to initialise the instance variables
-    public GeneralPractitioner(String name, String id, String phoneNum, String expertise, int serviceYear) {
+    public InternalMedicineProfessional(String name, String id, String phoneNum, String expertise, int serviceYear) {
         super(name, id, phoneNum); 
         this.expertise = expertise;
         this.serviceYear = serviceYear;

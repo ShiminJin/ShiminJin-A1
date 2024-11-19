@@ -43,7 +43,7 @@ public class HealthProfessional {
     }
 
     //Methods for printing instance variables
-    public void displayInfo() {
+    public void printInfo() {
         System.out.println("Name: " + name);
         System.out.println("ID: " + id);
         System.out.println("Phone Number: " + phoneNum);
