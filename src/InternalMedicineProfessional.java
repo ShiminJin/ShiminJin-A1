@@ -42,6 +42,6 @@ public class InternalMedicineProfessional extends HealthProfessional {
         super.printInfo();
         System.out.println("The health professional details are:");
         System.out.println("expertise: " + this.expertise);
-        System.err.println("serviceYear " + this.serviceYear);
+        System.out.println("serviceYear: " + this.serviceYear);
     }
 }
