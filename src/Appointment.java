@@ -52,11 +52,12 @@ public class Appointment {
     }
 
     public void printInfo() {
-        System.out.println("Below is the information for this this appointment:");
+        System.out.println("^");
         System.out.println("Patient Name: " + this.name);
         System.out.println("Patient Phone Number:  " + this.phoneNum);
         System.out.println("Appointment time:  " + this.time);
         System.out.println("Appointment Doctor:  " + doctor.name);
+        System.out.println("v");
     }
 
 }
